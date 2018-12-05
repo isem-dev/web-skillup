@@ -1,67 +1,44 @@
 <!DOCTYPE html>
-<html style="height: 100%;">
+<html>
 <head>
   <meta charset="utf-8">
   <meta name="description" content="First Landing Page">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="css/reset.css" type="text/css" rel="stylesheet">
+  <link href="css/font.css" type="text/css" rel="stylesheet">
+  <link href="css/style.css" type="text/css" rel="stylesheet">
   <title>iGor</title>
 </head>
-<body style="background: #f2f2f2; height: 100%; margin: 0;">
-  <table style="background: #f2f2f2; width: 100%; border-spacing: 0;">
-    <tbody>
-      <tr>
-        <td style="padding: 0">
-          <table style="background: #ffffff; width: 100%; height: 48px; border-spacing: 0;">
-            <tbody>
-              <tr>
-                <td style="padding: 0;">
-                  <table style="max-width: 898px; width: 100%; height: 100%; margin: 0 auto;">
-                    <tbody>
-                      <tr>
-                        <!-- Burger button start -->
-                        <td style="width: 20px; padding: 0;">
-                          <table style="width: 100%; border-spacing: 0">
-                          <tr>
-                            <td style="width: 100%; height: 2px; background-color: #9d9d9d; padding: 0"></td>
-                          </tr>
-                          <tr>
-                            <td style="width: 100%; height: 2px; padding: 4px 0;">
-                              <span style="display: block; width: 100%; height: 2px; background-color: #9d9d9d;"></span>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td style="width: 100%; height: 2px; background-color: #9d9d9d; padding: 0"></td>
-                          </tr>
-                        </table>
-                        </td>
-                        <!-- Burger button end -->
-                        <td style="display: inline-block; vertical-align: top; margin: 8px 0 0 40px; padding: 0">
-                          <a href="/Users/isem/WebstormProjects/skillup/iGor/" target="_blank">
-                            <img src="igor-logo.svg" alt="site logo">
-                          </a>
-                        </td>
-                        <td style="display: inline-block; vertical-align: top; margin: 15px 0 0 40px; padding: 0">
-                          <a style="color: black; font-weight: bold" href="https://glo.globallogic.com/users/profile/igor.semenov" target="_blank">G-profile</a>
-                        </td>
-                      </tr>
-                    </tbody>
-                  </table>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-          <table style="max-width: 898px; width: 100%; margin: 0 auto; border-spacing: 0;">
-            <tbody>
-              <tr>
-                <td style="padding: 0">
-                  <img src="igor-kyiv-2.png" alt="kyiv symbol">
-                </td>
-              </tr>
-            </tbody>
-          </table>
-        </td>
-      </tr>
-    </tbody>
-  </table>
+<body>
+  <header class="header-top">
+    <nav class="nav-panel">
+
+      <div class="burger-button">
+        <div class="burger-button__line"></div>
+        <div class="burger-button__line burger-button__line_margin"></div>
+        <div class="burger-button__line"></div>
+      </div>
+
+      <div class="logo">
+        <img src="images/igor-logo.svg" alt="site logo">
+      </div>
+
+      <ul class="profile-link">
+        <li>
+          <a href="https://glo.globallogic.com/users/profile/igor.semenov" target="_blank">G-profile</a>
+        </li>
+      </ul>
+
+    </nav>
+  </header>
+
+  <main class="main-container">
+    <figure class="main-content">
+      <img src="images/igor-kyiv-2.png" alt="kyiv symbol">
+    </figure>
+    <p class="main-content">
+      Some description will be here
+    </p>
+  </main>
 </body>
 </html>
